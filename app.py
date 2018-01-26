@@ -1,5 +1,5 @@
 """
-Solshal service to scrape websites
+Solshal service to scrap websites
 """
 import os
 import requests
