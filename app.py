@@ -70,15 +70,8 @@ def get_meta_content(valueA, valueB):
     Check if value a is empty if so
     checks value b
     """
-    if not valueA:
-        valueA = ""
-    else:
-        valueA = valueA[0]["content"]
-
-    if not valueB:
-        valueB = ""
-    else:
-        valueB = valueB[0]["content"]
+    valueA = valueA[0]["content"] if valueA else ""
+    valueB = valueB[0]["content"] if valueB else ""
 
     if valueA == "":
         return valueB
