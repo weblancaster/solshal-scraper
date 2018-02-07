@@ -1,7 +1,8 @@
-Solshal Scraper service
+Solshal Scraper
 ==========
 
-This module/service is a basic experiment for solshal.com where it's replacing the main scraper written in Node.js.
+Service used to scrap URLs in solshal.com and automatically format a card/collection.
+This python service is replacing the in Node.js (Scraperjs) that was part of Solshal main service.
 
 ## LICENSE
 SOLSHAL COPYRIGHT 2018
